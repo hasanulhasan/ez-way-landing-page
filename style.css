@@ -38,7 +38,6 @@ body{
   border-radius: 20px;
 }
 
-
 .banner{
   background-image: 
   linear-gradient(to bottom, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url(img/banner.jpeg);
@@ -111,6 +110,8 @@ body{
 
 .big-card-section{
   background-color: #FAFAFC;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .big-card-header{
@@ -161,6 +162,8 @@ body{
  .features{
   max-width: 1280px;
   margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
  }
  .feature-cards {
   display: grid;
@@ -176,7 +179,7 @@ body{
   width: 405px;
   height: 465px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
   text-align: center;
   color: #5B5B5B;
  }
@@ -185,3 +188,39 @@ body{
   margin-right: 10%;
  }
  
+ .social-media-section{
+  max-width: 1440px;
+  height: 436px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FAFAFC;
+ }
+ .social-content span{
+  color: #FF8A00;
+ }
+ .social-content h2{
+  font-size: 32px;
+  font-weight: 600;
+ }
+ .social-content p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #555555;
+ }
+
+ .social-icons {
+  max-width: 1140px;
+  display: flex;
+  gap: 104px;
+  margin-top: 25px;
+ }
+
+ .social-icons > div> img{
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.4);
+ }
